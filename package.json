@@ -1,0 +1,23 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "description": "Back-end services to run the mongo driver inside a docker container ",
+  "main": "app.js",
+  "scripts": {
+  	"start": "node ./app.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aearanky/My-Library.git"
+  },
+  "author": "Aditya Earanky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aearanky/My-Library/issues"
+  },
+  "homepage": "https://github.com/aearanky/My-Library#readme",
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  }
+}
